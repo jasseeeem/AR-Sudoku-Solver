@@ -4,6 +4,7 @@ This python program takes in an image, solves the sudoku and overlays the answer
 <p align="center">
   <img src="https://github.com/Jaseem001/AR-Sudoku-Solver/blob/master/test/rm_1.png" height ="300">
 </p>
+
 ## How does it work?
 
 First step is to preprocess the image. The image is resized, converted to grayscale, blurred a bit and an adaptive threshold is applied to get the contours in the image. Then the contour with the maximum area is found whose corners are marked in light green colour here.
